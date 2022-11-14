@@ -7,7 +7,7 @@ const StyledSearch = styled.div`
   border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 425px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 50px;
   overflow: hidden;
   
   input {
@@ -22,6 +22,7 @@ const StyledSearch = styled.div`
     flex: 1;
     cursor: pointer;
     border: none;
+    color:  ${({ theme }) => theme.textColorBase};
     background-color: ${({ theme }) => theme.backgroundLevel2};
     box-shadow: 0 1px 0 rgb(0 0 0 / 10%);
     border-left: 1px solid ${({ theme }) => theme.borderBase};
